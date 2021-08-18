@@ -3,5 +3,5 @@
 
 	local AttacksNeeded = Mod.Settings.AttacksNeeded;
 	
-    UI.CreateLabel(vert).SetText('Complete '..Mod.Settings.AttacksNeeded..' successful attacks to avoid getting sanctioned');
+    UI.CreateLabel(vert).SetText('Complete '..Mod.Settings.AttacksNeeded..' successful attacks to avoid getting sanctioned.');
 end

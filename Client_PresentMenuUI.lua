@@ -8,7 +8,7 @@ function Client_PresentMenuUI(rootParent, setMaxSize, setScrollable, game, close
 	
 		local vert = UI.CreateVerticalLayoutGroup(rootParent);
 		
-		UI.CreateLabel(vert).SetText('Complete '..Mod.Settings.AttacksNeeded..' successful attacks to avoid getting sanctioned');
+		UI.CreateLabel(vert).SetText('Complete '..Mod.Settings.AttacksNeeded..' successful attacks to avoid getting sanctioned.');
 	end
 end
 

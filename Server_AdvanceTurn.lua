@@ -31,7 +31,7 @@ function Server_AdvanceTurn_End(game, addNewOrder)
 			local Cards =  game.ServerGame.Settings.Cards;
 			for CardID, _ in pairs(Cards) do
 				if CardID == WL.CardID.Sanctions then
-					addNewOrder(WL.GameOrderEvent.Create(PlayerID, "You get a bonus sanction because you did not conquer enough territories", {}, {}));
+					addNewOrder(WL.GameOrderEvent.Create(PlayerID, "You get sanctioned because you did not conquer enough territories.", {}, {}));
 					local NewSanctions = WL.NoParameterCardInstance.Create(WL.CardID.Sanctions)
 					addNewOrder(WL.GameOrderReceiveCard.Create(PlayerID, {NewSanctions}));
 					addNewOrder(WL.GameOrderPlayCardSanctions.Create(NewSanctions.ID, PlayerID, PlayerID));

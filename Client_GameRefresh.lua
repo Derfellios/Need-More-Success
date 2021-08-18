@@ -4,7 +4,7 @@ function Client_GameRefresh(game)
 
 		local message = Mod.Settings.AttacksNeeded;
 
-		UI.Alert("This game includes More Success Needed. Complete " .. message .. " attacks to avoid being sanctioned")
+		UI.Alert("This game includes More Success Needed. Complete " .. message .. " attacks to avoid being sanctioned.")
 		if game.Us ~= nil then
 			local payload = {};
 			payload.Message = "InitialPopupDisplayed";
