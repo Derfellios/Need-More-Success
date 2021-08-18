@@ -1,0 +1,2 @@
+This mod adds one new rule: You need to make a certain amount of successful attacks to avoid getting sanctioned. 
+This number is configurable.
